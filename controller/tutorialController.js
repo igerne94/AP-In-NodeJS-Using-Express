@@ -27,8 +27,8 @@ exports.postEditTutorial = (req, res, next) => {
     updatedTutorial.save();
     res.status(200).json({ 
         message: id ? 
-            'Tutorial Updated Successfully' 
-            : 'Tutorial Added Successfully' 
+            'Data Updated Successfully' 
+            : 'Data Added Successfully' 
         })
 };
 
