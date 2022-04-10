@@ -3,6 +3,7 @@ const express = require('express');
 const tutorialController = require('../controller/tutorialController');
 
 const router = express.Router();
+console.log("router" , router);
 
 router.get('/', tutorialController.getTutorials);
 
